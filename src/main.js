@@ -1,5 +1,7 @@
-import { createApp } from 'vue'
-import './style.css'
-import App from './App.vue'
+import { createApp } from 'vue';
+import { Tabbar, TabbarItem } from '@nutui/nutui';
+import { IconFont } from '@nutui/icons-vue';
+import '@nutui/icons-vue/dist/style_iconfont.css';
 
-createApp(App).mount('#app')
+const app = createApp();
+app.use(Tabbar, TabbarItem, IconFont);
