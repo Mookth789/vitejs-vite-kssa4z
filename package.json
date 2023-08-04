@@ -9,10 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@nutui/nutui": "^4.1.2",
     "vue": "^3.3.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
+    "unplugin-vue-components": "^0.25.1",
     "vite": "^4.4.5"
   }
 }
